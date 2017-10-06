@@ -1,3 +1,3 @@
 # tosa
 
-Basis of a licence school projet
+Basis of a school projet
