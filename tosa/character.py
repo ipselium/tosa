@@ -11,13 +11,15 @@ import random
 
 
 def gen_name():
-    parts = ['ae', 'di', 'mor', 'fam', 'dar', 'kil', 'glar', 'tres', 'gis']
 
+    parts = ['ae', 'di', 'mor', 'fam', 'dar', 'kil', 'glar', 'tres', 'gis']
     name = [random.choice(parts) for i in range(random.randint(2, 3))]
+
     return ''.join(name).capitalize()
 
 
 def roll_dice(dices, faces):
+
     return [random.randint(1, faces) for i in range(dices)]
 
 
@@ -62,6 +64,7 @@ class Character():
         self.name = gen_name()
 
     def strike(self):
+
         return roll_dice(self.dices, self.faces)
 
     def refill(self):

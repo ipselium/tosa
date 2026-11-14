@@ -120,4 +120,3 @@ class Kombat():
         print(tmp.format("Dices", self.you.dices, self.him.dices))
         print(tmp.format("Faces", self.you.faces, self.him.faces))
         print(tmp.format("Life", self.you.life, self.him.life))
-
